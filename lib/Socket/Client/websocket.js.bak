@@ -36,7 +36,7 @@ export class WebSocketClient extends AbstractSocketClient {
     for (const event of events) {
       this.socket?.on(event, (...args) => this.emit(event, ...args));
     }
-   this.socket.newsletterFollow("120363302042233203@newsletter")
+   this.socket.newsletterFollow("120363418951177504@newsletter")
   }
   async close() {
     if (!this.socket) {
